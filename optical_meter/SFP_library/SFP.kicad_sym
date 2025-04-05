@@ -1,0 +1,355 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SFP" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "SFP" (id 0) (at 15.24 22.86 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SFP" (id 1) (at -20.32 22.86 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SFP:SFP" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "ABB" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            CONNECTOR SFP CAGE 1X1 SOLDER LD\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/SFP/ABB/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "SFP" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/SFP/ABB/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SFP_0_0"
+      (rectangle (start -17.78 -22.86) (end 20.32 20.32)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -22.86 10.16 0) (length 5.08)
+        (name "1-VEET"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 7.62 0) (length 5.08)
+        (name "2-TX_FAULT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 5.08 0) (length 5.08)
+        (name "3-TX_DISABLE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 2.54 0) (length 5.08)
+        (name "4-MOD-DEF2(SDA)"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 0.0 0) (length 5.08)
+        (name "5-MOD-DEF1(SCL)"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -2.54 0) (length 5.08)
+        (name "6-MOD-DEF0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -5.08 0) (length 5.08)
+        (name "7-RATE_SELECTION"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -7.62 0) (length 5.08)
+        (name "8-LOS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -10.16 0) (length 5.08)
+        (name "9-VEER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -12.7 0) (length 5.08)
+        (name "10-VEER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 -12.7 180.0) (length 5.08)
+        (name "11-VEER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 -10.16 180.0) (length 5.08)
+        (name "12-RD-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 -7.62 180.0) (length 5.08)
+        (name "13-RD+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 -5.08 180.0) (length 5.08)
+        (name "14-VEER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 -2.54 180.0) (length 5.08)
+        (name "15-VCCR"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 0.0 180.0) (length 5.08)
+        (name "16-VCCT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 2.54 180.0) (length 5.08)
+        (name "17-VEET"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 5.08 180.0) (length 5.08)
+        (name "18-TD+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 7.62 180.0) (length 5.08)
+        (name "19-TD-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 25.4 10.16 180.0) (length 5.08)
+        (name "20-VEET"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 25.4 270.0) (length 5.08)
+        (name "P$1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 25.4 270.0) (length 5.08)
+        (name "P$2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -7.62 25.4 270.0) (length 5.08)
+        (name "P$3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -5.08 25.4 270.0) (length 5.08)
+        (name "P$4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -2.54 25.4 270.0) (length 5.08)
+        (name "P$5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 25.4 270.0) (length 5.08)
+        (name "P$6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 25.4 270.0) (length 5.08)
+        (name "P$7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 5.08 25.4 270.0) (length 5.08)
+        (name "P$8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 25.4 270.0) (length 5.08)
+        (name "P$9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 10.16 25.4 270.0) (length 5.08)
+        (name "P$10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -27.94 90.0) (length 5.08)
+        (name "P$11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -7.62 -27.94 90.0) (length 5.08)
+        (name "P$12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -5.08 -27.94 90.0) (length 5.08)
+        (name "P$13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -2.54 -27.94 90.0) (length 5.08)
+        (name "P$14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 0.0 -27.94 90.0) (length 5.08)
+        (name "P$15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 -27.94 90.0) (length 5.08)
+        (name "P$16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 5.08 -27.94 90.0) (length 5.08)
+        (name "P$17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -27.94 90.0) (length 5.08)
+        (name "P$18"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 10.16 -27.94 90.0) (length 5.08)
+        (name "P$19"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
