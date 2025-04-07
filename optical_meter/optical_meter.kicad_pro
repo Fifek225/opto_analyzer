@@ -619,6 +619,10 @@
     [
       "329e6fb6-763d-4479-a593-6f78470800a1",
       "Root"
+    ],
+    [
+      "a30fce3a-b9ac-4590-ae34-4ac7fee85d9a",
+      "RaspberryPi Pico"
     ]
   ],
   "text_variables": {}
