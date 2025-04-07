@@ -2469,6 +2469,66 @@
 		)
 		(uuid "1c133bf7-6ac5-4a17-a2a7-18de2811187d")
 	)
+	(text_box "Review:\n- Try to keep power symbol clean"
+		(exclude_from_sim no)
+		(at 257.81 116.84 0)
+		(size 24.13 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "865a96ad-ba7a-4be5-9630-48988b968da4")
+	)
+	(text_box "Review:\n- All positive power symbols put to the up\n- All GND symbols put to the down\n- Check pull up resistors for SDA0 and SCL0\n- Keep reference designator and value better organized, C4 is bad R4 is ok\n- Did you simulate your pi networks for VccT and VccR?, choose correct values"
+		(exclude_from_sim no)
+		(at 13.97 20.32 0)
+		(size 27.94 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9a9a0c5e-c6c4-4aff-87ad-8aea2b1a65ab")
+	)
+	(text_box "Review:\n- Check the C9 capacitor according to parameters, the value of capaitance and impedance versus frequency\n- DOUT+ and DOUT- do not need the pull up and pull down?"
+		(exclude_from_sim no)
+		(at 138.43 19.05 0)
+		(size 19.05 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ad9c812f-314e-45fb-822f-2e255b0a3480")
+	)
 	(text_box "Both U2 and U3 have internal +1V2 offset on LVDS interface"
 		(exclude_from_sim no)
 		(at 255.27 78.74 0)
@@ -2489,6 +2549,26 @@
 			(justify left)
 		)
 		(uuid "e2e2744e-5d7e-4707-8ed0-ed89b05a238d")
+	)
+	(text_box "Review:\n- Check the C14 capacitor according to parameters, the value of capaitance and impedance versus frequency\n- DOUT+ and DOUT- do not need the pull up and pull down?"
+		(exclude_from_sim no)
+		(at 138.43 64.77 0)
+		(size 19.05 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e8a8fd7d-35e8-4626-9023-0e943d5bf6d3")
 	)
 	(junction
 		(at 49.53 143.51)
