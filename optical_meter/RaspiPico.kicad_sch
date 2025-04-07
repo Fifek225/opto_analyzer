@@ -2030,12 +2030,6 @@
 		(uuid "bc719b04-69a0-487b-9dea-c27efb6fe7b1")
 	)
 	(junction
-		(at 133.35 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62a96141-dc7d-40c4-8b54-4bc44cbf5342")
-	)
-	(junction
 		(at 161.29 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2335,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 144.78) (xy 133.35 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7102215e-16e0-43f8-a9af-8e84b3ff0f59")
-	)
-	(wire
-		(pts
 			(xy 148.59 144.78) (xy 153.67 144.78)
 		)
 		(stroke
@@ -2525,16 +2509,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 144.78) (xy 133.35 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4570aca-1d92-46ab-9077-b7fee32102e2")
-	)
-	(wire
-		(pts
 			(xy 129.54 52.07) (xy 138.43 52.07)
 		)
 		(stroke
@@ -2635,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 144.78) (xy 125.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57b793c-6468-4d96-b1c6-62005c119e22")
+	)
+	(wire
+		(pts
 			(xy 129.54 77.47) (xy 139.7 77.47)
 		)
 		(stroke
@@ -2662,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "fdb7cd81-07e5-4a36-ae0d-44c3d64f5bae")
+	)
+	(wire
+		(pts
+			(xy 125.73 144.78) (xy 125.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc6afd0-a84e-4d62-a1a0-f2a37da71ce9")
 	)
 	(label "GPIO22"
 		(at 139.7 80.01 0)
@@ -4935,6 +4929,72 @@
 			(project "optical_meter"
 				(path "/329e6fb6-763d-4479-a593-6f78470800a1/a30fce3a-b9ac-4590-ae34-4ac7fee85d9a"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 125.73 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3913d29-710c-464a-90ac-8c9cb0089d18")
+		(property "Reference" "#PWR056"
+			(at 125.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 125.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47dc4894-9348-42cd-b8fd-5e44df9e4300")
+		)
+		(instances
+			(project "optical_meter"
+				(path "/329e6fb6-763d-4479-a593-6f78470800a1/a30fce3a-b9ac-4590-ae34-4ac7fee85d9a"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
