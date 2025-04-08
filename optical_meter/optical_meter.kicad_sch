@@ -3202,16 +3202,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 152.4) (xy 271.78 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab1d0eb-dbdf-44db-9fb0-e5a13e7a508c")
-	)
-	(wire
-		(pts
 			(xy 236.22 129.54) (xy 242.57 129.54)
 		)
 		(stroke
@@ -3702,16 +3692,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 158.75) (xy 267.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83932a99-889d-4c2b-8184-621039fc8ee8")
-	)
-	(wire
-		(pts
 			(xy 181.61 88.9) (xy 181.61 100.33)
 		)
 		(stroke
@@ -3719,16 +3699,6 @@
 			(type default)
 		)
 		(uuid "83e2fef1-4f80-4f14-95aa-0aa5de71fe01")
-	)
-	(wire
-		(pts
-			(xy 208.28 43.18) (xy 208.28 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8540fa26-37a0-484f-844c-4e41359708bf")
 	)
 	(wire
 		(pts
@@ -4192,16 +4162,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 146.05) (xy 273.05 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43df5ff-65d8-402b-8d1a-c101800b1fb3")
-	)
-	(wire
-		(pts
 			(xy 72.39 38.1) (xy 69.85 38.1)
 		)
 		(stroke
@@ -4209,6 +4169,16 @@
 			(type default)
 		)
 		(uuid "c60bff11-029f-45d4-a984-ad12e12ed1ae")
+	)
+	(wire
+		(pts
+			(xy 208.28 43.18) (xy 208.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8118032-b0af-4345-8d46-1e0acf017537")
 	)
 	(wire
 		(pts
@@ -4949,72 +4919,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe256984-782f-4c30-96f7-b86185eff465")
-	)
-	(global_label "GND"
-		(shape passive)
-		(at 273.05 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "413c0a81-aa90-4ec7-9d90-1bbace8be249")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.7944 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V3"
-		(shape passive)
-		(at 271.78 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95fc3753-ef62-454a-8cc0-26ce3585f34d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.7339 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape passive)
-		(at 273.05 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff7b8479-57b2-47bc-90a0-8785c724b9e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.7944 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -5953,73 +5857,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 267.97 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31289111-20ff-4df5-b203-dd18c6833ec7")
-		(property "Reference" "#PWR050"
-			(at 261.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c24d2f8-6efc-4984-9b2b-91897162ca8c")
-		)
-		(instances
-			(project "optical_meter"
-				(path "/329e6fb6-763d-4479-a593-6f78470800a1"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 184.15 0)
 		(unit 1)
@@ -6282,140 +6119,6 @@
 			(project "optical_meter"
 				(path "/329e6fb6-763d-4479-a593-6f78470800a1"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 265.43 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43b05cfd-f93a-4fb3-807c-dc02063fceca")
-		(property "Reference" "#PWR051"
-			(at 269.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 261.62 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44e45d1b-e118-4eed-95ac-ba66c3cd055c")
-		)
-		(instances
-			(project "optical_meter"
-				(path "/329e6fb6-763d-4479-a593-6f78470800a1"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 266.7 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "441550ab-5016-4bdd-acf8-16fc4f0cf5d4")
-		(property "Reference" "#PWR049"
-			(at 270.51 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 262.89 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f8e0e7a-4d44-4d2f-9d36-7d15aafcfff0")
-		)
-		(instances
-			(project "optical_meter"
-				(path "/329e6fb6-763d-4479-a593-6f78470800a1"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
