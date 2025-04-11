@@ -10109,7 +10109,7 @@
 		(dnp no)
 		(uuid "765866f9-09fc-446f-b666-14af620cb4d5")
 		(property "Reference" "J2"
-			(at 73.152 86.106 0)
+			(at 71.882 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10118,7 @@
 			)
 		)
 		(property "Value" "SFP+"
-			(at 72.39 88.9 0)
+			(at 71.12 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,7 +11024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 110.49 168.91 0)
 			(effects
 				(font

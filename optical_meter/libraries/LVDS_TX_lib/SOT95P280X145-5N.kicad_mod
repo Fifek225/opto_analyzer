@@ -448,7 +448,7 @@
 		(uuid "19ac67a9-decd-414a-abe0-8dec766ed45e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/LVDS_TX_lib/FIN1001M5X.step"
+	(model "${KIPRJMOD}/libraries/LVDS_RX_lib/FIN1002M5X.step"
 		(offset
 			(xyz 0 0 0)
 		)

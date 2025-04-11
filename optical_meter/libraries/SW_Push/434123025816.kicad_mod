@@ -176,7 +176,7 @@
 		(uuid "5d4f528b-7eee-4e78-96f7-274f0bbef7fb")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/SW_Push/434123025816.step"
+	(model "${KIPRJMOD}/libraries/SW_Push/434123025816.step"
 		(offset
 			(xyz 0 0 0)
 		)
