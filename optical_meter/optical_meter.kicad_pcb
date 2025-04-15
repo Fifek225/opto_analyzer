@@ -11336,7 +11336,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 12.8 19.05 45)
+			(at 12.8 19.05 315)
 			(layer "F.SilkS")
 			(uuid "f7ade42f-6dbc-4944-9daa-3224d1a730fb")
 			(effects
